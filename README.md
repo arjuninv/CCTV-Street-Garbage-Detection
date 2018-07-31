@@ -5,4 +5,4 @@ Once a street is found to be unclean, it automatically sends an email alert to t
 This program makes use of the tensorflow library to classify images from the camera as clean or unclean based on a few hundred traning images that were manually selected.
 
 ## Run
-> python -m scripts.detect --graph=files/retrained_graph.pb --image=<path of image from CCTV Camera>
+> python -m scripts.detect --graph=files/retrained_graph.pb --image={path of image from CCTV Camera}
